@@ -1,0 +1,178 @@
+---
+import site from '../../site.config.json';
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { organization, website } from '../lib/seo.mjs';
+const homeGuides = (await getCollection('articles', ({ data }) => !data.draft))
+  .sort((a, b) => +(b.data.updatedDate ?? b.data.publishDate) - +(a.data.updatedDate ?? a.data.publishDate))
+  .slice(0, 30);
+const total = (await getCollection('articles', ({ data }) => !data.draft)).length;
+const featured = homeGuides[0];
+const pad = (n) => String(n).padStart(2, '0');
+---
+<Base title="DogDrills: Short Daily Dog Training Drills That Stick" description="Two-minute dog training drills: obedience, behavior fixes, recall and crate work. Pick a drill, set a timer, log the reps. Free, no videos to binge.">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [organization(site), website(site)]
+  })} />
+
+<div class="dd" style="background:#0C1611;color:#EFEDE4;font-family:Barlow,system-ui,sans-serif;overflow-x:hidden">
+
+<header style="max-width:1320px;margin:0 auto;padding:22px 48px;display:flex;align-items:center;gap:30px;flex-wrap:wrap;border-bottom:1px solid rgba(255,255,255,.09)">
+  <a href="/" style="display:flex;align-items:baseline;font-family:Anton,Impact,sans-serif;font-size:25px;letter-spacing:.005em;line-height:1;color:#EFEDE4;text-decoration:none">
+    <span>DOG</span><span style="position:relative;display:inline-block;width:.60em;height:.73em;background:#CBFF33;border-radius:2px 46% 46% 2px;margin:0 .015em"><span style="position:absolute;left:34%;top:26%;width:.30em;height:.30em;border-radius:50%;background:#0C1611"></span></span><span>RILLS</span>
+  </a>
+  <nav class="dd-nav" style="display:flex;gap:22px;white-space:nowrap;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:.16em;color:rgba(239,237,228,.62)">
+    <a href="/guides/">DRILL INDEX</a>
+    <a href="#ladder">LADDER</a>
+    <a href="/about/">ABOUT</a>
+    <a href="/contact/">CONTACT</a>
+  </nav>
+  <div style="margin-left:auto;display:flex;align-items:center;gap:20px">
+    <a href="/guides/" style="background:#CBFF33;color:#0C1611;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.1em;white-space:nowrap;padding:10px 18px;border-radius:2px">START TRAINING</a>
+  </div>
+</header>
+
+<section style="max-width:1320px;margin:0 auto;padding:52px 48px 84px">
+  <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:20px">
+    <span style="width:7px;height:7px;background:#CBFF33;border-radius:50%;animation:ddpulse 1.8s ease-in-out infinite"></span>
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:.24em;white-space:nowrap;color:#CBFF33">TODAY'S DRILL</span>
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;letter-spacing:.18em;white-space:nowrap;color:rgba(239,237,228,.38)">FRESH FROM THE INDEX</span>
+  </div>
+
+  <div style="position:relative;background:#14211A;border:1px solid rgba(255,255,255,.10);border-radius:3px;overflow:hidden">
+    <div style="position:absolute;right:-14px;top:-30px;font-family:Anton,Impact,sans-serif;font-size:250px;line-height:.8;color:transparent;-webkit-text-stroke:1.5px rgba(239,237,228,.10);pointer-events:none;user-select:none">01</div>
+    <div style="position:relative;display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:56px;padding:44px 46px 40px" class="dd-hero-grid">
+      <div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.2em;white-space:nowrap;color:rgba(239,237,228,.5);border:1px solid rgba(255,255,255,.16);padding:4px 9px;border-radius:2px">FEATURED GUIDE</span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.2em;white-space:nowrap;color:rgba(239,237,228,.5);border:1px solid rgba(255,255,255,.16);padding:4px 9px;border-radius:2px">GUIDE 01 / {total}</span>
+        </div>
+        <h1 style="margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(40px,6vw,82px);line-height:.9;letter-spacing:-.005em;text-transform:uppercase;color:#EFEDE4;text-wrap:balance">Two minutes a day. One dog that listens.</h1>
+        <p style="margin:20px 0 0;font-size:21px;line-height:1.35;font-weight:500;color:rgba(239,237,228,.72);max-width:38ch;text-wrap:pretty">Short, timed dog-training drills for obedience, behavior fixes, recall and crate work. No videos to binge. A drill, a timer, a rep count.</p>
+        <div style="display:flex;align-items:center;gap:14px;margin-top:34px;flex-wrap:wrap">
+          <a href={featured ? `/${featured.id}/` : '/guides/'} style="display:flex;align-items:center;gap:12px;background:#CBFF33;color:#0C1611;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:19px;letter-spacing:.09em;white-space:nowrap;padding:16px 30px;border-radius:2px">START TODAY'S DRILL</a>
+          <a href="/guides/" style="background:transparent;color:rgba(239,237,228,.72);border:1px solid rgba(255,255,255,.2);font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:19px;letter-spacing:.09em;white-space:nowrap;padding:16px 26px;border-radius:2px">BROWSE ALL DRILLS</a>
+        </div>
+      </div>
+      <div class="dd-hero-side" style="display:flex;flex-direction:column;gap:26px;border-left:1px solid rgba(255,255,255,.10);padding-left:44px">
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.22em;white-space:nowrap;color:rgba(239,237,228,.42);margin-bottom:10px">NOW READING</div>
+          {featured && <a href={`/${featured.id}/`} style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;line-height:1.1;letter-spacing:.01em;text-transform:uppercase;color:#EFEDE4">{featured.data.title}</a>}
+          {featured && featured.data.description && <p style="margin:10px 0 0;font-size:15px;line-height:1.45;color:rgba(239,237,228,.6)">{featured.data.description}</p>}
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.22em;white-space:nowrap;color:rgba(239,237,228,.42);margin-bottom:6px">PER SESSION</div>
+            <div style="font-family:Anton,Impact,sans-serif;font-size:42px;line-height:.9;color:#CBFF33">2<span style="font-size:16px;color:rgba(239,237,228,.5);margin-left:4px">MIN</span></div>
+          </div>
+          <div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.22em;white-space:nowrap;color:rgba(239,237,228,.42);margin-bottom:6px">GUIDES LIVE</div>
+            <div style="font-family:Anton,Impact,sans-serif;font-size:42px;line-height:.9;color:#EFEDE4">{total}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ladder" style="background:#EFEDE4;color:#0C1611;clip-path:polygon(0 48px,100% 0,100% calc(100% - 48px),0 100%);padding:114px 0">
+  <div style="max-width:1320px;margin:0 auto;padding:0 48px">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:26px;gap:30px;flex-wrap:wrap">
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:.24em;color:rgba(12,22,17,.5);margin-bottom:10px">THE LADDER</div>
+        <h2 style="margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(34px,4.5vw,52px);line-height:.92;letter-spacing:-.005em;text-transform:uppercase">Four levels. Climb in order.</h2>
+      </div>
+      <p style="margin:0;max-width:26ch;font-size:16px;line-height:1.4;font-weight:500;color:rgba(12,22,17,.62);text-wrap:pretty">Every drill belongs to a rung. Finish the rung, unlock the next.</p>
+    </div>
+    <div class="dd-ladder" style="display:grid;grid-template-columns:repeat(4,1fr);gap:9px">
+      <a href="/guides/" style="background:#0C1611;color:#EFEDE4;clip-path:polygon(0 0,calc(100% - 26px) 0,100% 50%,calc(100% - 26px) 100%,0 100%);padding:26px 46px 24px 26px;display:block">
+        <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:14px"><span style="font-family:Anton,Impact,sans-serif;font-size:38px;line-height:.8;color:#CBFF33">01</span></div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px;letter-spacing:.01em;text-transform:uppercase;line-height:1">Puppy Basics</div>
+        <div style="font-size:14.5px;font-weight:500;color:rgba(239,237,228,.6);margin-top:7px;line-height:1.3">Name, crate, handling, potty.</div>
+      </a>
+      <a href="/guides/" style="background:#CBFF33;color:#0C1611;clip-path:polygon(0 0,calc(100% - 26px) 0,100% 50%,calc(100% - 26px) 100%,0 100%);padding:26px 46px 24px 26px;display:block">
+        <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:14px"><span style="font-family:Anton,Impact,sans-serif;font-size:38px;line-height:.8">02</span></div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px;letter-spacing:.01em;text-transform:uppercase;line-height:1">Obedience</div>
+        <div style="font-size:14.5px;font-weight:500;color:rgba(12,22,17,.66);margin-top:7px;line-height:1.3">Sit, down, stay, recall, heel.</div>
+      </a>
+      <a href="/guides/" style="background:rgba(12,22,17,.09);color:#0C1611;clip-path:polygon(0 0,calc(100% - 26px) 0,100% 50%,calc(100% - 26px) 100%,0 100%);padding:26px 46px 24px 26px;display:block">
+        <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:14px"><span style="font-family:Anton,Impact,sans-serif;font-size:38px;line-height:.8;color:rgba(12,22,17,.32)">03</span></div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px;letter-spacing:.01em;text-transform:uppercase;line-height:1">Behavior Fixes</div>
+        <div style="font-size:14.5px;font-weight:500;color:rgba(12,22,17,.55);margin-top:7px;line-height:1.3">Pulling, jumping, barking, counters.</div>
+      </a>
+      <a href="/guides/" style="background:rgba(12,22,17,.09);color:#0C1611;clip-path:polygon(0 0,calc(100% - 26px) 0,100% 50%,calc(100% - 26px) 100%,0 100%);padding:26px 46px 24px 26px;display:block">
+        <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:14px"><span style="font-family:Anton,Impact,sans-serif;font-size:38px;line-height:.8;color:rgba(12,22,17,.32)">04</span></div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:26px;letter-spacing:.01em;text-transform:uppercase;line-height:1">Advanced</div>
+        <div style="font-size:14.5px;font-weight:500;color:rgba(12,22,17,.55);margin-top:7px;line-height:1.3">Off-leash, place, scent, duration.</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="all-guides" style="max-width:1320px;margin:0 auto;padding:14px 48px 90px">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px;margin-bottom:22px;flex-wrap:wrap">
+    <div>
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:.24em;color:#CBFF33;margin-bottom:10px">DRILL INDEX · {total} GUIDES</div>
+      <h2 style="margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(30px,4vw,48px);line-height:.92;text-transform:uppercase;color:#EFEDE4">Pick a drill. Set a timer.</h2>
+    </div>
+    <a href="/guides/" style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:.16em;color:rgba(239,237,228,.6);border:1px solid rgba(255,255,255,.18);padding:9px 13px;border-radius:2px">VIEW FULL INDEX</a>
+  </div>
+  <div style="display:flex;gap:10px;padding:0 0 9px;border-bottom:1px solid rgba(255,255,255,.18);font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.2em;white-space:nowrap;color:rgba(239,237,228,.4)">
+    <span style="width:30px">NO.</span><span style="flex:1;min-width:120px">DRILL</span>
+  </div>
+  <div style="columns:420px 2;column-gap:56px;column-rule:1px solid rgba(255,255,255,.09);margin-top:2px">
+    {homeGuides.map((a, i) => (
+      <a href={`/${a.id}/`} class="dd-row" style="display:flex;align-items:center;gap:10px;padding:12px 8px 12px 0;border-bottom:1px solid rgba(255,255,255,.07);break-inside:avoid">
+        <span style="width:30px;flex:none;font-family:Anton,Impact,sans-serif;font-size:16px;color:rgba(239,237,228,.3)">{pad(i + 1)}</span>
+        <span style="flex:1;min-width:120px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;letter-spacing:.01em;text-transform:uppercase;color:#EFEDE4;line-height:1.15">{a.data.title}</span>
+      </a>
+    ))}
+  </div>
+</section>
+
+<section style="background:#CBFF33;color:#0C1611;clip-path:polygon(0 48px,100% 0,100% 100%,0 100%);padding:110px 0 54px;margin-top:-48px">
+  <div style="max-width:1320px;margin:0 auto;padding:0 48px">
+    <div class="dd-hero-grid" style="display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:56px;align-items:end">
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;letter-spacing:.24em;color:rgba(12,22,17,.6);margin-bottom:14px">THE PROGRAM</div>
+        <h2 style="margin:0;font-family:Anton,Impact,sans-serif;font-size:clamp(40px,5.5vw,74px);line-height:.86;text-transform:uppercase;letter-spacing:-.005em">Two minutes a day.<br>Real drills.<br>One dog that listens.</h2>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px">
+        <p style="margin:0;font-size:18px;line-height:1.4;font-weight:500;color:rgba(12,22,17,.7);text-wrap:pretty">No videos to binge. No theory. A drill, a timer, a rep count — every guide is built to run today.</p>
+        <a href="/guides/" style="background:#0C1611;color:#EFEDE4;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:.09em;padding:18px 30px;border-radius:2px;text-align:center">START WEEK 01 — FREE</a>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-top:52px;padding-top:22px;border-top:1px solid rgba(12,22,17,.25);gap:20px;flex-wrap:wrap">
+      <div style="display:flex;align-items:baseline;font-family:Anton,Impact,sans-serif;font-size:21px;color:#0C1611">
+        <span>DOG</span><span style="position:relative;display:inline-block;width:.60em;height:.73em;background:#0C1611;border-radius:2px 46% 46% 2px;margin:0 .015em"><span style="position:absolute;left:34%;top:26%;width:.30em;height:.30em;border-radius:50%;background:#CBFF33"></span></span><span>RILLS</span>
+      </div>
+      <div class="dd-foot" style="display:flex;gap:24px;flex-wrap:wrap;font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.16em;color:rgba(12,22,17,.62)">
+        <a href="/guides/">DRILL INDEX</a>
+        <a href="/about/">ABOUT</a>
+        <a href="/contact/">CONTACT</a>
+        <a href="/editorial/">EDITORIAL</a>
+        <a href="/disclosure/">DISCLOSURE</a>
+        <a href="/privacy/">PRIVACY</a>
+        <a href="/terms/">TERMS</a>
+        <span style="color:rgba(12,22,17,.42)">© 2026 DOGDRILLS</span>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<style is:global>
+  .dd a{text-decoration:none;color:inherit}
+  .dd .dd-nav a:hover,.dd .dd-foot a:hover{color:#CBFF33}
+  .dd .dd-foot a:hover{color:#0C1611;opacity:.7}
+  .dd .dd-row:hover{background:rgba(255,255,255,.04)}
+  .dd .dd-row:hover span{color:#CBFF33}
+  @keyframes ddpulse{0%,100%{opacity:1}50%{opacity:.25}}
+  @media (max-width:900px){
+    .dd .dd-hero-grid{grid-template-columns:1fr !important}
+    .dd .dd-hero-side{border-left:none !important;padding-left:0 !important}
+    .dd .dd-ladder{grid-template-columns:1fr 1fr !important}
+  }
+</style>
+</Base>

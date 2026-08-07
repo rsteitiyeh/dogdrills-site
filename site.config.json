@@ -1,0 +1,21 @@
+{
+  "SITE": "https://dogdrills.com",
+  "BRAND": "DogDrills",
+  "niche": "109-dog-training",
+  "stealth": false,
+  "toolArchetype": "quiz",
+  "mailerlite": { "formAction": "", "groupId": "" },
+  "cfBeaconToken": "",
+  "magnet": { "file": "", "doneMessage": "You're in - your download is starting now." },
+  "author": { "name": "DogDrills", "bio": "Short daily dog-training drills: obedience, behavior fixes, and recall work in two-minute sessions." },
+  "comingSoon": { "promise": "Short daily dog-training drills are on the way.", "captureLabel": "Get notified at launch" },
+  "theme": {
+    "bg": "#0C1611",
+    "ink": "#EFEDE4",
+    "accent": "#CBFF33",
+    "accent2": "#14211A",
+    "headingFont": "Anton, Impact, sans-serif",
+    "bodyFont": "Barlow, system-ui, sans-serif"
+  },
+  "ga4": { "measurementId": "" }
+}
