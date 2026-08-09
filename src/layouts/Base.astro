@@ -31,7 +31,8 @@ const ga4 = (site.ga4 && site.ga4.measurementId) || '';
   <SeoHead title={title} description={description} ogImage={ogImage} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" /></noscript>
   <slot name="head" />
   {site.cfBeaconToken && (
     <script
@@ -142,7 +143,6 @@ const ga4 = (site.ga4 && site.ga4.measurementId) || '';
       });
     });
   </script>
-
 
   <script is:inline>
     (function () {
