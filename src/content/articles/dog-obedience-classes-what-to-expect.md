@@ -4,7 +4,7 @@ description: "Compare dog obedience class formats, costs, and session structure 
 keyword: "dog obedience classes"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

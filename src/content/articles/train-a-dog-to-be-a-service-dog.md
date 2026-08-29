@@ -4,7 +4,7 @@ description: "Understand what it actually takes to train a service dog, includin
 keyword: "how to train my dog to be a service dog"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

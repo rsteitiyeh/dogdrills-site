@@ -4,7 +4,7 @@ description: "Practical toilet training fixes for accidents, marking, nighttime 
 keyword: "tips for toilet training a puppy"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

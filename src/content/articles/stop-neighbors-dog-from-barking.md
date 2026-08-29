@@ -4,7 +4,7 @@ description: "Reduce a neighbor's dog barking with a calm-first approach: sound 
 keyword: "how to stop neighbor's dog from barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

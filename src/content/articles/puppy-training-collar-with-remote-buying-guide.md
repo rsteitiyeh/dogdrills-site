@@ -4,7 +4,7 @@ description: "What to know before buying a remote training collar for a puppy, i
 keyword: "puppy training collar with remote"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

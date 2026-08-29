@@ -4,7 +4,7 @@ description: "Alone-time barking usually means separation distress, not defiance
 keyword: "how do you stop dog from barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

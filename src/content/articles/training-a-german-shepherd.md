@@ -4,7 +4,7 @@ description: "Train a German shepherd using drive-matched drills for obedience, 
 keyword: "how to train a german shepherd dog"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

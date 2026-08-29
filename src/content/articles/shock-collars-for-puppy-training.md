@@ -1,9 +1,9 @@
 ---
 title: "Shock Collars for Puppy Training: What Experts Say"
-publishDate: 2026-08-07
 description: "Veterinary behaviorists advise against shock collars for puppy training due to fear and aggression risks; reward-based methods work as well or better."
 keyword: "shock collars for puppy training"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

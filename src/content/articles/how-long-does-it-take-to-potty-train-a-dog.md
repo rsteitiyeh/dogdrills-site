@@ -4,7 +4,7 @@ description: "See realistic potty training timelines by age and breed size, the 
 keyword: "how long does it take to potty train a dog"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

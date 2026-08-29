@@ -4,7 +4,7 @@ description: "Stop excessive dog barking with a diagnose-then-drill approach cov
 keyword: "how do i stop my dog from barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

@@ -4,7 +4,7 @@ description: "Breed size, prior history, schedule habits, and living setup chang
 keyword: "potty training a puppy how long does it take"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

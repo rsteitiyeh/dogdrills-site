@@ -4,7 +4,7 @@ description: "Build real obedience with 5 core commands, sit, stay, down, come, 
 keyword: "dog obedience training"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

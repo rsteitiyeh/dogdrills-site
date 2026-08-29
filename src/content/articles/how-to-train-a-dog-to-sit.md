@@ -1,9 +1,9 @@
 ---
 title: "How to Train a Dog to Sit: Step-by-Step Guide"
-publishDate: 2026-08-07
 description: "Lure your dog into a sit with a treat over the nose, mark the moment their rear hits the floor, and repeat 10 reps a day for a week."
 keyword: "how do i train a dog to sit"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

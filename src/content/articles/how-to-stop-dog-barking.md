@@ -4,7 +4,7 @@ description: "Stop excessive adult dog barking with targeted drills for alert, b
 keyword: "how to stop dog barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

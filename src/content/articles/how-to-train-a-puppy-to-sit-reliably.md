@@ -1,9 +1,9 @@
 ---
 title: "How to Train a Puppy to Sit Reliably, Every Time"
-publishDate: 2026-08-07
 description: "Reliable puppy sits come from short daily reps, consistent rewards, and practice around real distractions, not from one long session."
 keyword: "how to train a puppy to sit reliably"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

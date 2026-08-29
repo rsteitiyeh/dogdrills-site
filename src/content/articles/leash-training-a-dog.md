@@ -4,7 +4,7 @@ description: "Fix a dog that pulls with these leash training drills, covering eq
 keyword: "leash training a dog"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

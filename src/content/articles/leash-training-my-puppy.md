@@ -1,9 +1,9 @@
 ---
 title: "Leash Training My Puppy: From First Collar to Walks"
-publishDate: 2026-08-07
 description: "Introduce collar and leash indoors first, then build loose-leash walking in 4 stages. Most puppies walk politely on leash within 3 to 6 weeks of practice."
 keyword: "leash training my puppy"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

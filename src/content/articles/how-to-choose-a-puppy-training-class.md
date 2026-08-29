@@ -4,7 +4,7 @@ description: "Compare group size, trainer credentials, vaccine rules, and curric
 keyword: "puppy training class"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

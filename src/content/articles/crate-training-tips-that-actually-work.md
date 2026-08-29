@@ -4,7 +4,7 @@ description: "Practical crate training tips for whining, refusal to enter, escap
 keyword: "tips on crate training"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

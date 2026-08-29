@@ -4,7 +4,7 @@ description: "Teach a dog to lie down using lure-and-reward steps, common sticki
 keyword: "how do you train a dog to lay down"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

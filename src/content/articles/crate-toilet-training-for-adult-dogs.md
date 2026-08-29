@@ -1,9 +1,9 @@
 ---
 title: "Crate Toilet Training for Adult Dogs and Rescues"
-publishDate: 2026-08-07
 description: "Crate toilet training an adult dog uses a snug crate, a strict schedule, and immediate outdoor access to rebuild habits an older dog never learned."
 keyword: "crate toilet training for dogs"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

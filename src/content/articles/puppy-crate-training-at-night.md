@@ -1,9 +1,9 @@
 ---
 title: "Puppy Crate Training at Night: Step-by-Step Routine"
-publishDate: 2026-08-07
 description: "Run a consistent bedtime routine, expect potty breaks by age, and respond to whining by age and need. Most puppies sleep 6+ hours crated by 4 months old."
 keyword: "puppy crate training at night"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

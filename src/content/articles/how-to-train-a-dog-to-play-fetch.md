@@ -1,9 +1,9 @@
 ---
 title: "How to Train a Dog to Play Fetch (Even Non-Retrievers)"
-publishDate: 2026-08-07
 description: "Train fetch in three parts: chase and grab, carry back to you, and release on cue. Non-retriever breeds usually need 2 to 4 weeks of short daily reps."
 keyword: "how to train a dog to play fetch"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

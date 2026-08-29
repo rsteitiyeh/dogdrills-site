@@ -4,7 +4,7 @@ description: "Master loose leash walking with drills built for real sidewalks an
 keyword: "loose leash training dog"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

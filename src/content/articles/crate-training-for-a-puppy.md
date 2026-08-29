@@ -4,7 +4,7 @@ description: "Crate train a puppy without tears using this staged drill plan cov
 keyword: "crate training for a puppy"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

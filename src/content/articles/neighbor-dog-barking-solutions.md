@@ -4,7 +4,7 @@ description: "Compare every option for a neighbor's barking dog, from mediation 
 keyword: "how can you stop a neighbor's dog from barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

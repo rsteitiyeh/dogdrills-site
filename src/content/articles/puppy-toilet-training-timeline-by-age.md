@@ -4,7 +4,7 @@ description: "See what toilet training progress looks like month by month from 8
 keyword: "how long does toilet training a puppy take"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

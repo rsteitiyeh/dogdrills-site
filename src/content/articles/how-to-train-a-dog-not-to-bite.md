@@ -1,9 +1,9 @@
 ---
 title: "How to Train a Dog Not to Bite: Adult Dog Guide"
-publishDate: 2026-08-07
 description: "Train a dog not to bite by identifying triggers, removing rehearsal opportunities, and drilling calm alternatives with consistent daily practice."
 keyword: "how to train a dog not to bite"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

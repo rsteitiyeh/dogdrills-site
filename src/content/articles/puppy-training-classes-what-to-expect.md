@@ -4,7 +4,7 @@ description: "Puppy training classes run 4-6 weeks, cost $100-$250, and mix leas
 keyword: "puppy training classes"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

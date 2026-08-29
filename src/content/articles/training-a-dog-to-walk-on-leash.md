@@ -4,7 +4,7 @@ description: "Introduce a leash and collar without a fight, using desensitizatio
 keyword: "training dogs on leash"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

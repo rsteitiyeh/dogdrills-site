@@ -4,7 +4,7 @@ description: "Identify why your dog is barking before choosing a fix. This overv
 keyword: "how do i get dog to stop barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

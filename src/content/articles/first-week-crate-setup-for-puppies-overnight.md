@@ -1,9 +1,9 @@
 ---
 title: "Crate Training Puppies Overnight: First-Week Setup Guide"
-publishDate: 2026-08-07
 description: "Place the crate in your bedroom for week one, then move it gradually. See a night-by-night first-week plan and fixes for a puppy who cries all night."
 keyword: "crate training puppies overnight"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

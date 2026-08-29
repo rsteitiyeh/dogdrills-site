@@ -1,9 +1,9 @@
 ---
 title: "How Can I Stop a Dog From Barking Excessively"
-publishDate: 2026-08-07
 description: "Stop excessive dog barking by identifying the trigger, removing the reward, teaching a quiet cue, and meeting exercise and mental needs daily."
 keyword: "how can i stop a dog from barking"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

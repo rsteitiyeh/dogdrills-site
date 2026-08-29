@@ -1,9 +1,9 @@
 ---
 title: "How to Stop Dog Barking at Dogs on Leash and Fence"
-publishDate: 2026-08-07
 description: "Stop dog-to-dog barking by increasing distance, marking calm behavior, and drilling counter-conditioning daily. Fix leash and fence reactivity fast."
 keyword: "how to stop dog barking at dogs"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

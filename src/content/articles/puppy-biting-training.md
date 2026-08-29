@@ -4,7 +4,7 @@ description: "Stop puppy biting and nipping with 6 practical drills covering bit
 keyword: "puppy biting training"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

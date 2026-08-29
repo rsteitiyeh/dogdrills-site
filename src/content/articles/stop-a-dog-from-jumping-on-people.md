@@ -4,7 +4,7 @@ description: "Stop a dog from jumping on people using a sit-for-greeting method,
 keyword: "how to train a dog to not jump on you"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

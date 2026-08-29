@@ -4,7 +4,7 @@ description: "Potty train a puppy to pee outside using a schedule-first method, 
 keyword: "how to train a dog to pee outside"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

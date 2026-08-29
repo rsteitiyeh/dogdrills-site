@@ -4,7 +4,7 @@ description: "Fix adult dog house-soiling with a reset schedule, medical rule-ou
 keyword: "how do you train a dog to pee outside"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

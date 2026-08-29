@@ -4,7 +4,7 @@ description: "Train a dog to walk on a leash without pulling using a stop-and-go
 keyword: "how to train a dog to walk on a leash"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

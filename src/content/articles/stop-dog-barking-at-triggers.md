@@ -4,7 +4,7 @@ description: "Fix trigger-specific barking at the doorbell, passing cars, or oth
 keyword: "how can you stop a dog barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

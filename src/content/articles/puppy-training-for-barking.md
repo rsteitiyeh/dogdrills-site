@@ -4,7 +4,7 @@ description: "Stop puppy barking with 7 field-tested drills covering triggers, t
 keyword: "puppy training for barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

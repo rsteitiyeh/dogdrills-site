@@ -4,7 +4,7 @@ description: "Teach a dog its name using a name-response game that builds instan
 keyword: "how to train a dog their name"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

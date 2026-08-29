@@ -1,9 +1,9 @@
 ---
 title: "Potty Training a Puppy Using a Crate: Full Schedule"
-publishDate: 2026-08-07
 description: "Potty train a puppy using a crate sized to their body, a fixed feeding and bathroom schedule, and consistent overnight breaks every few hours."
 keyword: "potty training a puppy using a crate"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

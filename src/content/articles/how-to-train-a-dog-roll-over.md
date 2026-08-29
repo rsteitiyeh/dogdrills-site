@@ -1,9 +1,9 @@
 ---
 title: "How to Train a Dog to Roll Over in 5 Steps"
-publishDate: 2026-08-07
 description: "Teach roll over by luring down into a play bow, then guiding a treat over the shoulder in 5 short steps. Most dogs get it in 1 to 2 weeks of daily reps."
 keyword: "how to train a dog roll over"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

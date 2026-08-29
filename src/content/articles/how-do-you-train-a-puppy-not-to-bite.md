@@ -1,9 +1,9 @@
 ---
 title: "How Do You Train a Puppy Not to Bite: Bite Inhibition"
-publishDate: 2026-08-07
 description: "Train a puppy not to bite by teaching bite inhibition with yelp-and-stop, redirecting to toys, and rewarding gentle mouth pressure every session."
 keyword: "how do you train a dog not to bite"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

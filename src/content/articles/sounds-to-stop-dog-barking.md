@@ -4,7 +4,7 @@ description: "See which sounds actually interrupt dog barking, why ultrasonic de
 keyword: "sound to make dog stop barking"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

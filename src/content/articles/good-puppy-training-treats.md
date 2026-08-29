@@ -1,9 +1,9 @@
 ---
 title: "What Makes Good Puppy Training Treats"
-publishDate: 2026-08-07
 description: "Good puppy training treats are pea-sized, soft, low-calorie, and high-value enough to beat distractions without upsetting a small stomach."
 keyword: "good puppy training treats"
-author: "DogDrills Team"
+publishDate: 2026-08-07
+author: DogDrills Team
 draft: false
 ---
 

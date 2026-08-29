@@ -4,7 +4,7 @@ description: "Stop a strong-pulling dog with a direction-change method, the righ
 keyword: "how to train a dog not to pull on leash"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

@@ -4,7 +4,7 @@ description: "Learn how to train a dog with a clicker using charging drills, tim
 keyword: "how to train a dog with a clicker"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

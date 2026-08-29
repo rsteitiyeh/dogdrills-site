@@ -4,7 +4,7 @@ description: "Use puppy pads for potty training correctly with placement, schedu
 keyword: "puppy pads for potty training"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

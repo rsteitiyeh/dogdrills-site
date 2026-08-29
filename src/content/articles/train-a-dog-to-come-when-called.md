@@ -4,7 +4,7 @@ description: "Build a dog's recall using a high-value reward system, distraction
 keyword: "how to train a dog to come when called"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 

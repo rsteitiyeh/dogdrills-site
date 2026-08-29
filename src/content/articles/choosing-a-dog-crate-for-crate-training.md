@@ -4,7 +4,7 @@ description: "Wire, plastic, or soft-sided: pick the crate size and style that a
 keyword: "dog crates for crate training"
 publishDate: 2026-08-07
 updatedDate: 2026-08-07
-author: "DogDrills.com"
+author: DogDrills.com
 draft: false
 ---
 
