@@ -97,7 +97,6 @@ It can reduce certain hormone-driven behaviors in some dogs but isn't a reliable
 **How do I explain a biting dog to visitors or family safely?**
 Be direct and specific rather than vague. Tell people exactly what to avoid (reaching for the collar, approaching the food bowl, sudden movements) and what a calm greeting should look like, since most bite incidents with familiar people happen because nobody set clear expectations beforehand.
 
-
 ## Does breed affect how much bite training a dog needs?
 
 Breed shapes bite style more than it shapes whether training works. Herding breeds tend to nip at heels and moving targets, terriers grab and shake, and mouthy retrievers carry things in their mouths out of habit rather than aggression. None of that changes the core method: redirect the mouth to an appropriate object, reward calm contact, and stop rewarding any bite that lands on skin. What changes is which triggers you rehearse most: a herding dog needs more reps around movement (kids running, bikes, joggers), while a retriever needs more "give" and "drop it" practice with objects already in its mouth. Match the drill to the trigger, not to a breed stereotype.

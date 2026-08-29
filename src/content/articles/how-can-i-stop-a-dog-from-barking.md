@@ -100,7 +100,6 @@ No, only attention-seeking barking benefits from being ignored. Alarm barking an
 **How much exercise does a barking dog actually need?**
 It depends heavily on breed and age, but a common baseline for adult dogs is 30 to 60 minutes of real physical activity daily, plus 10 to 15 minutes of mental work like puzzle feeders or training reps. Working and herding breeds often need more before boredom barking settles down.
 
-
 ## What if the barking happens only when I leave the house?
 
 That pattern usually points to separation-related distress rather than boredom or alarm barking, and it needs a different plan. Start by recording your dog on a phone propped on a shelf for the first 10 minutes after you leave. Constant barking that ramps up, paired with pacing or drooling, is a signal to slow down departures: practice picking up your keys and sitting back down, five to ten times a session, until keys no longer predict you leaving. Build absences in small increments (30 seconds, then 2 minutes, then 10) before attempting a full workday. Dogs with true separation anxiety often need a veterinary behaviorist alongside training, since punishment for this kind of barking makes the underlying fear worse, not better.

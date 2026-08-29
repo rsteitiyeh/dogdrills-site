@@ -87,7 +87,6 @@ Both work. Toy-motivated dogs do better with the toss itself as the reward (drop
 **My dog fetches at home but not at the park. What's going on?**
 This is a generalization problem, not disobedience. A behavior trained indoors with no distractions has to be retaught, at a lower difficulty, in each new environment. Start with short, easy tosses in the new location before expecting park-level focus.
 
-
 ## What if my dog only fetches sometimes?
 
 Inconsistent fetch is usually a motivation problem, not a skill problem. A dog that retrieves in the yard but ignores the toy at the park is telling you the environment is competing with the game. Fix it by raising the value of the toy relative to the distraction: use a squeaky or high-contrast toy reserved only for fetch sessions, keep early park sessions short (five throws, done), and end on a successful retrieve rather than pushing until the dog checks out. Some dogs also fetch less in hot weather or thick grass where the ball is hard to see and hard to carry comfortably; switch to a lighter toy or a cooler time of day before assuming the dog has lost interest in the game itself.

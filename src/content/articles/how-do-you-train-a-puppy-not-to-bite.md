@@ -94,7 +94,6 @@ Fast hand movement often triggers a chase-and-grab response in puppies. Keep you
 **Is mouthing during teething different from aggression?**
 Yes, teething mouthing is exploratory and typically comes with a loose, wiggly body. Aggression involves stiff body language, growling with intent, and is far less common in young puppies without an underlying fear or pain trigger. If you see stiff body language, treat it differently and consult a professional (source: [AVSAB](https://avsab.org/resources/position-statements/)).
 
-
 ## Is it normal for biting to get worse before it gets better?
 
 Yes, and this trips up a lot of new owners. Around 4 to 6 months, puppies go through a teething spike where gum discomfort drives them to chew on anything within reach, including hands and ankles. Bite frequency often climbs during this window even when your redirect-to-toy training is working correctly. Keep a rotation of textures (rope, rubber, frozen washcloth) so there is always a legal outlet for the urge to chew. Don't read a teething spike as a training failure. If the intensity or frequency keeps climbing past 7 to 8 months instead of tapering off, that is the point to loop in a certified trainer to rule out a bite inhibition gap that needs closer supervision.

@@ -95,7 +95,6 @@ Yes, this is a common cause. A crate that's too large lets a puppy potty in one 
 **Do puppies need a night light or white noise for crate training?**
 Neither is required, but consistency matters more than which you choose. Some puppies settle faster with a low white noise machine masking household sounds; others do fine in silence and darkness. Pick one setup and keep it consistent every night.
 
-
 ## Should the crate stay in the bedroom permanently?
 
 Not necessarily, but don't rush the move. Keeping the crate in your bedroom for the first several weeks lets a puppy hear and smell you through the night, which cuts down on distress barking far more than a crate parked alone in a laundry room. Once your puppy is reliably sleeping through a full stretch without whining or accidents (usually somewhere between 12 and 16 weeks, dog-dependent), you can shift the crate a few feet toward the door over several nights, then into a hallway, and eventually to its permanent spot. Move it gradually rather than in one jump. A puppy that regresses after a location change just needs a night or two back at the previous spot before trying again.
